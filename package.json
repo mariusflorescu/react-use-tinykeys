@@ -34,6 +34,9 @@
     "next.js",
     "window"
   ],
+  "dependencies": {
+    "@babel/eslint-parser": "^7.16.5"
+  },
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.7",
@@ -54,15 +57,11 @@
     "typescript": "^4.5.4"
   },
   "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "react": "^16.8.0 || ^17.0.0"
   },
   "scripts": {
     "build": "rimraf lib && rollup -c",
     "format": "prettier --write .",
     "lint": "eslint ."
-  },
-  "dependencies": {
-    "@babel/eslint-parser": "^7.16.5"
   }
 }
