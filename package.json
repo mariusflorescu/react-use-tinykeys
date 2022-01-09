@@ -63,7 +63,7 @@
     "build": "rimraf lib && rollup -c && tsc --emitDeclarationOnly",
     "format": "prettier --write .",
     "lint": "eslint .",
-    "prepublish:public": "yarn run build && npm run bump-version",
+    "prepublish:public": "yarn run build && yarn run bump-version",
     "publish:public": "npm publish --access public"
   }
 }
