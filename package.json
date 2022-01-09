@@ -1,6 +1,6 @@
 {
   "name": "react-use-tinykeys",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "tinykeys, but as a hook",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
